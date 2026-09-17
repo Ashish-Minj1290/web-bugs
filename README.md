@@ -1,7 +1,7 @@
 web-bugs
 ========
 
-A repo used by the Web Compatibility community to track issues reported via [webcompat.com](http://webcompat.com)
+A repo used by the Web Compatibility community to track issues reported via [webcompat.com](https://webcompat.com/)
 
 ![Screenshot of webcompat.com](screenie.png)
 
@@ -35,6 +35,19 @@ Status labels which should only be used when a bug report is closed.
 - `status-wontfix` - The issue will not be fixed
 - `status-worksforme` - The issue can't be reproduced
 
+### Contributing
+The main contribution workflow is issue-based: report reproducible compatibility problems, help diagnose existing reports, and add useful technical details so others can continue the investigation.
+
+A good contribution should:
+
+1. Reproduce the problem, ideally with a clean browser profile.
+2. Record the browser, version, operating system, and other browsers tested.
+3. Include clear steps to reproduce and relevant console errors or screenshots.
+4. Add appropriate browser, operating-system, and status labels when you have enough evidence.
+5. Suggest a standards-compatible or cross-browser fix when the cause is understood.
+
+When contacting a site or company about a report, avoid posting private contact information in the issue. Record only the useful public outcome of the contact attempt.
+
 ### Best practices
 
 If you’re using Webcompat.com already, you’re probably pretty awesome. So why do you need to read this? Well from experience we know a few tricks that make the web compatibility process go even smoother. And who doesn’t want to learn sweet new tricks?
@@ -46,7 +59,7 @@ If you’re using Webcompat.com already, you’re probably pretty awesome. So wh
 - If you feel comfortable dig in and analyze the bug as well
 
 #### Analyzing web compatibility bugs
-- Confirm that you can reproduce the error. Ideally you should use a clean browser profile. See [this tutorial for Firefox](http://www.otsukare.info/2014/11/12/configure-webcompat-browser).
+- Confirm that you can reproduce the error. Ideally you should use a clean browser profile. See [this tutorial for Firefox](https://www.otsukare.info/2014/11/12/configure-webcompat-browser).
 - Set any related labels - if the bug appears on Chrome for Android, set the “browser-chrome” and “os-android” labels
 - Provide details on which piece of code is broken
 - List out any relevant error codes
